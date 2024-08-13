@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../Downloads/pokedex-tutorial-main/pokedex-tutorial-main/assets"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Pokedex"
+  }
+}
