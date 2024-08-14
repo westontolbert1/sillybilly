@@ -19,9 +19,9 @@ async function loadPokemon(id) {
       fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then((res) =>
         res.json()
       ),
-//      fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`).then((res) =>
-//        res.json()
-//      ),
+      fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`).then((res) =>
+        res.json()
+      ),
     ]);
 
     const abilitiesWrapper = document.querySelector(
