@@ -20,9 +20,9 @@ async function fetchPokemonDataBeforeRedirect(id) {
       fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then((res) =>
         res.json()
       ),
-//      fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`).then((res) =>
-//        res.json()
- //     ),
+      fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`).then((res) =>
+        res.json()
+      ),
     ]);
     return true;
   } catch (error) {
